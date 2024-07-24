@@ -23,7 +23,7 @@ minikube start --driver=docker
 5 - Set permission of the bash script
 sudo chmod +x minikube_ip.sh
 
-5 - Terraform inicialization:
+6 - Terraform inicialization:
 Inside the project directory run:
 terraform init
 terraform plan
