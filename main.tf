@@ -1,3 +1,4 @@
+## add new git
 provider "kubernetes" {
   config_path = "~/.kube/config"
 }
@@ -170,3 +171,4 @@ resource "kubernetes_horizontal_pod_autoscaler" "wordpress" {
     target_cpu_utilization_percentage = 50
   }
 }
+# add new git

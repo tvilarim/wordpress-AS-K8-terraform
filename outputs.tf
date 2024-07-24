@@ -13,3 +13,4 @@ locals {
 data "external" "minikube_ip" {
   program = ["bash", "${path.module}/minikube_ip.sh"]
 }
+# add new git
